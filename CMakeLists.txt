@@ -12,8 +12,11 @@ endif()
 project ("Guitar-Hero-3")
 
 # Add source to this project's executable.
-add_executable (Guitar-Hero-3 "src/Guitar-Hero-3.cpp" "Guitar-Hero-3.h")
+add_executable (Guitar-Hero-3 "${CMAKE_CURRENT_SOURCE_DIR}/src/Guitar-Hero-3.cpp")
 
+add_subdirectory("${CMAKE_CURRENT_SOURCE_DIR}/src")
+
+target_include_directories(${PROJECT_NAME} PUBLIC "${CMAKE_CURRENT_SOURCE_DIR}/src")
 if (CMAKE_VERSION VERSION_GREATER 3.12)
   set_property(TARGET Guitar-Hero-3 PROPERTY CXX_STANDARD 20)
 endif()

@@ -1,3 +1,0 @@
-F:/Github/Guitar-Hero-3/out/build/x64-debug/CMakeFiles/Guitar-Hero-3.dir
-F:/Github/Guitar-Hero-3/out/build/x64-debug/CMakeFiles/edit_cache.dir
-F:/Github/Guitar-Hero-3/out/build/x64-debug/CMakeFiles/rebuild_cache.dir
