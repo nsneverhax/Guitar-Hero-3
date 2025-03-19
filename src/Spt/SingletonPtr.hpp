@@ -2,17 +2,18 @@
 
 #include <Defines.hpp>
 
+#include <Spt/Class.hpp>
+
 namespace Spt
 {
 	template <typename T>
-	class SingletonPtr
+	class SingletonPtr : public Spt::Class
 	{
 	public:
 		SingletonPtr(T* self)
 		{
 			Instance = self;
 		}
-
 
 		T* operator->() const;
 		T& operator*() const;

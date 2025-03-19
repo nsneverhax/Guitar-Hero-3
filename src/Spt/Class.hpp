@@ -1,0 +1,8 @@
+
+namespace Spt
+{
+	class Class
+	{
+
+	};
+}
